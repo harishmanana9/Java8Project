@@ -15,10 +15,8 @@ class EmployeeUtils {
 	}	
 }
 
-
 public class FunctionDemo {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		Function<Employee, String> funEmployeeToStr = e -> e.getEmpName();
 		Function<Employee, String> funEmployeeToCity = e -> e.getCity();
 
